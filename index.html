@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+    <link rel="icon" href="img/logo__2.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="2_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-1">
+        <div class="container">
+        <p>We're open and available for takeaway & delivery. <span>Order Now</span></p>
+    </div>
+    </nav>
+    <nav class="nav-2">
+      <a href=""><img src="img/logo__2.svg" alt="" class="nav__2img1"></a>
+      <a href=""><img src="img/white_logo.png" alt="" class="nav__2img2"></a>
+        <div class="nav-content">
+            <a href="" class="nav-link">Home</a>
+            <a href="" class="nav-link">Order</a>
+            <a href="" class="nav-link">Company</a>
+            <a href="" class="nav-link">FAQ</a>
+            <a href="" class="nav-link">Contact</a>
+            <a href=""> <i class="fa-solid fa-cart-shopping"></i></a>   
+        </div>
+    </nav>
+    
+    <header>
+        <div class="container header-content">
+            <div class="title-1">
+                <h1>Beautiful food & takeaway, <span> delivered</span> to your door.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+             <a href="" class="link">Place an Order</a>
+                <p><i class="fa-solid fa-star"></i>Trustpilot</p>
+                <p><span>4.8 out of 5</span> based on 2000+ reviews</p>
+            </div>
+             <img src="img/card-1.png" alt="" class="card-img">
+        </div>
+       
+    </header>
+
+    <main>
+        <div class="container main-content">
+           <div class="title-1">
+            <h2>
+                The home of 
+                <br>
+                fresh products
+            </h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            <a href="" class="link">Learn about us</a>
+           </div>
+           <img src="img/card-2.png" alt="" class="img-tm">
+        </div>
+    </main>
+
+    <main class="container main-content-1">
+        <h2>
+            How it works.
+        </h2>
+        <div class="title-2">
+            <div class="block-1 bl-hover">
+                <img src="img/card-3.png" alt="">
+                <h3>Adapt your menu items</h3>
+                <p class="block-p">Easily adapt your menu using the webflow CMS and allow customers to browse your items.</p>
+            </div>
+            <div class="block-1 bl-hover">
+                <img src="img/card-4.png" alt="">
+                <h3>Accept online orders & takeout</h3>
+                <p class="block-p">
+                    Let your customers order and pay via the powerful ecommerce system, or simple let them call your store.
+                </p>
+                
+            </div>
+            <div class="block-1 bl-hover">
+                <img src="img/card-5.png" alt="">
+                <h3>Manage delivery or takeout</h3>
+                <p class="block-p">
+                    Manage your own logistics and take orders simply through the ecommerce system.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <main class="container menu">
+        <h2>Browse our menu</h2>
+        <p>Use our menu to place an order online, or <span>phone</span> our store to place a pickup order. Fast and fresh food.</p>
+        <div class="list__links">
+            <!-- Бургеры -->
+            <a href="" class="link">Burgers</a>
+            <!-- Еда -->
+            <a href="" class="link">Sides</a>
+            <!-- Напитки -->
+            <a href="" class="link">Drinks</a>
+        </div>
+        <!-- Список меню -->
+        <div class="all__menu">
+            <div class="menu-1">
+                <div class="card-1" id="burgerDream">
+                    <img src="img/burgers/br-1.png" alt="">
+                    <p class="price">5$</p>
+                    <div class="in__card">
+                        <h3>Burger Dreams</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="add__product">
+                        <output class="product-num">0</output>
+                        <!-- Добавить бургер -->
+                        <a class="link__btn" data-symbol="+">Add to card</a>
+                        <div class="product__price"><span>0</span> $</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card-1" id="burgerCali">
+                    <img src="img/burgers/br-2.png" alt="">
+                    <p class="price">6$</p>
+                    <div class="in__card">
+                        <h3>Burger Cali</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="add__product">
+                        <output class="product-num">0</output>
+                        <a class="link__btn" data-symbol="+">Add to card</a>
+                        <div class="product__price"><span>0</span> $</div>
+
+                    </div>
+                    </div>
+                </div>
+                <div class="card-1" id="burgerSpicy">
+                    <img src="img/burgers/br-3.png" alt="">
+                    <p class="price">7$</p>
+                    <div class="in__card">
+                        <h3>Burger Spicy</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="add__product">
+                        <output class="product-num">0</output>
+                        <a class="link__btn" data-symbol="+">Add to card</a>
+                        <div class="product__price"><span>0</span> $</div>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-2">
+                <div class="card-1" id="burgerWaldo">
+                    <img src="img/burgers/br-4.png" alt="">
+                    <p class="price">8$</p>
+                    <div class="in__card">
+                        <h3>Burger Waldo</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="add__product">
+                        <output class="product-num">0</output>
+                        <a class="link__btn" data-symbol="+">Add to card</a>
+                        <div class="product__price"><span>0</span> $</div>
+
+                    </div>
+                    </div>
+                </div>
+                <div class="card-1" id="burgerBacon">
+                    <img src="img/burgers/br-5.png" alt="">
+                    <p class="price">9$</p>
+                    <div class="in__card">
+                        <h3>Burger Bacon Buddy</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="add__product">
+                        <output class="product-num">0</output>
+                        <a class="link__btn" data-symbol="+">Add to card</a>
+                        <div class="product__price"><span>0</span> $</div>
+
+                    </div>
+                    </div>
+                </div>
+                <div class="card-1" id="burgerClassic">
+                    <img src="img/burgers/br-6.png" alt="">
+                    <p class="price">10$</p>
+                    <div class="in__card">
+                        <h3>Burger Classic</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="add__product">
+                        <output class="product-num">0</output>
+                        <a class="link__btn" data-symbol="+">Add to card</a>
+                        <div class="product__price"><span>0</span> $</div>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="addCart">Order</a>
+    </main>
+    <main class="container main-2">
+       <section class="section-1">
+        <img src="img/card-6.png" alt="" class="img-tm">
+        <div class="title-1">
+            <h2>
+                Order online with our simple checkout.
+            </h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+            <a href="" class="link">See our FAQ</a>
+        </div>
+       </section>
+       <section class="section-2">
+           <div class="title-1">
+               <h2>Call our store and takeaway when it suits you best</h2>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+               <a href="" class="link">Ph. +61 233 2333</a>
+           </div>
+           <img src="img/sec-img.png" alt="" class="img-tm">
+       </section>
+    </main>
+    <main class="main-3">
+        <img src="img/burgers/last-img.png" alt="" class="img-tm">
+            <div class="title-3">
+                <h2><span>Support</span>
+                    good food and local buisness</h2>
+                    <a href="" class="link">Order Now</a>
+            </div>
+    </main>
+
+    <footer class="footer-content">
+        <div class="container footer-link">
+            <div class="logo__link">
+                <a href="">
+                <img src="img/logo__2.svg" alt="">
+                </a>
+                <p>Takeaway & Delivery template
+                    <br>
+                    for small medium business
+                </p>
+            </div>
+             <div class="footer-list">
+                 <div class="links-1">
+                     <p>Company</p>
+                     <a href="">Home</a>
+                     <a href="">Order</a>
+                     <a href="">FAQ</a>
+                     <a href="">Contact</a>
+                 </div>
+                 <div class="links-1">
+                     <p>Tamplate</p>
+                        <a href="">Style Guide</a>
+                        <a href="">Changelog</a>
+                        <a href="">Licence</a>
+                        <a href="">Webflow University</a>
+                    </div>
+                    <div class="links-1">
+                        <p>Flowbase</p>
+                        <a href="">More Cloneables</a>
+                    </div>
+
+            </div>
+        </div>
+      
+    </footer>
+    <footer class="container footer-1">
+        <div class="footer__h2">
+            <p>Built by <span> Flowbase</span> Powered by <span> Webflow</span></p>
+        </div>
+        <div class="logo__links">
+            <a href="">
+            <i class="fa-brands fa-instagram-square"></i>
+            </a>
+            <a href="">
+            <i class="fa-brands fa-twitter-square"></i>
+            </a>
+                <a href="">
+            <i class="fa-brands fa-youtube-square"></i>
+
+                </a>
+        </div>
+    </footer>
+
+    <div class="receipt active"> <!-- Чек -->
+        <div class="receipt__window">
+            <h2 class="receipt__window-title">BURGER</h2>
+
+            <!-- Вывод информации в чек  -->
+            <div class="receipt__window-out"></div>
+
+            <button class="receipt__window-btn">Оплатить</button> <!-- При нажатии страница обновляется -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>
